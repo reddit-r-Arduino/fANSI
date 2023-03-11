@@ -13,3 +13,13 @@ at 9600 N81.
 Includes support for cursor on/off, cursor positioning, erasing to end-of-display
 or to end-of-line, alternate screen buffers, borders, and more!
 
+To display the results just copy from the COM port or device to your console output:
+
+```
+ripred$ ls /dev/cu.usb*
+/dev/cu.usbserial-0001
+ripred$
+ripred$
+ripred$ cat /dev/cu.usbserial-0001 
+```
+![ANSIexample.png](ANSIexample.png)
